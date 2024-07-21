@@ -53,6 +53,14 @@ p {
   background-color: #048ccc;
 }
 
+p::selection {
+  background-color: transparent;
+}
+
+p::moz-selection {
+  background-color: transparent;
+}
+
 .p-through {
   text-decoration: line-through;
 }
